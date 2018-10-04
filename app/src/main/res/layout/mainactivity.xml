@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerInParent="true"
+    android:background="@drawable/footer_lodyas"
+    android:orientation="horizontal"
+    tools:context="com.example.eko8757.Myskripsi.MainActivity">
+
+
+    <ToggleButton
+        android:id="@+id/button_check"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/power_button"
+        android:src="@mipmap/ic_launcher"
+        android:textOff=""
+        android:textOn="">
+    </ToggleButton>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="URL SCANNER"
+        android:textColor="@color/gradStart"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edit1"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:hint="https://"
+        android:textColor="@color/gradStart"
+        android:textColorHint="@color/ivory"
+        android:layout_below="@+id/button_check"
+        android:layout_centerHorizontal="true"/>
+
+    <ScrollView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/edit1"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="300dp"
+            android:textColor="@color/ivory"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv1">
+        </TextView>
+
+    </ScrollView>
+
+</RelativeLayout>
