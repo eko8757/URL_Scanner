@@ -3,18 +3,4 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
-    <color name="color">#FF000000</color>
-    <color name="dimgrey">#696969</color>
-    <color name="darkgrey">#A9A9A9</color>
-    <color name="ivory">#FFFFF0</color>
-    <color name="transparent">#00000000</color>
-    <color name="gradStart">#19AA8B</color>
-    <color name="gradStop">#23A7D8</color>
-    <color name="splash1">#00008D</color>
-    <color name="splash2">#663399</color>
-    <color name="splash3">#FF00FF</color>
-    <color name="splash4">#8A2BE2</color>
-
-
-
 </resources>
